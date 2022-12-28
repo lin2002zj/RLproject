@@ -1,6 +1,7 @@
 # 中山大学强化学习期末作业
 
 复现论文报告，[参考代码链接](https://github.com/watchernyu/REDQ)。
+
 论文原文：[RANDOMIZED ENSEMBLED DOUBLE Q-LEARNING: LEARNING FAST WITHOUT A MODEL](https://arxiv.org/abs/2101.05982)
 
 环境如下：
