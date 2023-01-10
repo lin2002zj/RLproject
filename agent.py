@@ -3,8 +3,7 @@ import torch
 from torch import Tensor
 import torch.nn as nn
 import torch.optim as optim
-from module import TanhGaussianPolicy, Mlp, \
-    soft_update_model1_with_model2, ReplayBuffer, mbpo_target_entropy_dict
+from module import TanhGaussianPolicy, Mlp, soft_update_model1_with_model2, ReplayBuffer, mbpo_target_entropy_dict
 
 class Agent(object):
     def __init__(self, env_name, obs_dim, act_dim, act_limit, device,
