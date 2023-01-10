@@ -52,8 +52,6 @@ def convert_json(obj):
 
         return str(obj)
 
-
-
 def colorize(string, color, bold=False, highlight=False):
     """
     Colorize a string.
